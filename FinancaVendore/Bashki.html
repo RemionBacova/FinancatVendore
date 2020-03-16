@@ -1,0 +1,329 @@
+﻿<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ 
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <style type="text/css">
+    #container {
+    height: 600px; 
+    min-width: 310px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+  </style>
+   <script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+$(function () {
+
+    // Prepare demo data
+    var data = [
+        {
+            "hc-key": "BELSH",
+            "value": 156
+        },
+        {
+            "hc-key": "BERAT",
+            "value": 158
+        },
+        {
+            "hc-key": "BULQIZË",
+            "value": 420
+        },
+        {
+            "hc-key": "CËRRIK",
+            "value": 200
+        },
+        {
+            "hc-key": "DELVINË",
+            "value": 4
+        },
+        {
+            "hc-key": "DEVOLL",
+            "value": 5
+        },
+        {
+            "hc-key": "DIBËR",
+            "value": 6
+        },
+        {
+            "hc-key": "DIVJAKË",
+            "value": 7
+        },
+        {
+            "hc-key": "DROPULL",
+            "value": 8
+        },
+        {
+            "hc-key": "DURRËS",
+            "value": 9
+        },
+        {
+            "hc-key": "ELBASAN",
+            "value": 10
+        },
+        {
+            "hc-key": "FIER",
+            "value": 11
+        },
+		{
+            "hc-key": "FUSHË ARRËS",
+            "value": 11
+        },
+		{
+            "hc-key": "GJIROKASTËR",
+            "value": 11
+        },
+		{
+            "hc-key": "GRAMSH",
+            "value": 11
+        },
+		{
+            "hc-key": "HAS",
+            "value": 11
+        },
+		{
+            "hc-key": "HIMARË",
+            "value": 11
+        },
+		{
+            "hc-key": "KAMËZ",
+            "value": 11
+        },
+		{
+            "hc-key": "KAVAJË",
+            "value": 11
+        },
+		{
+            "hc-key": "KËLCYRË",
+            "value": 11
+        },
+		{
+            "hc-key": "KLOS",
+            "value": 11
+        },
+		{
+            "hc-key": "KOLONJË",
+            "value": 11
+        },
+		{
+            "hc-key": "KONISPOL",
+            "value": 11
+        },
+		{
+            "hc-key": "KORÇË",
+            "value": 11
+        },
+		{
+            "hc-key": "KRUJË",
+            "value": 11
+        },
+		{
+            "hc-key": "KUÇOVË",
+            "value": 11
+        }
+		,
+		{
+            "hc-key": "KUKËS",
+            "value": 11
+        }
+		,
+		{
+            "hc-key": "KURBIN",
+            "value": 11
+        }
+		,
+		{
+            "hc-key": "LEZHË",
+            "value": 11
+        }
+		,
+		{
+            "hc-key": "LIBOHOVË",
+            "value": 11
+        }
+		,
+		{
+            "hc-key": "LIBRAZHD",
+            "value": 11
+        },
+		{
+            "hc-key": "FINIQ",
+            "value": 11
+        },
+		{
+            "hc-key": "LUSHNJE",
+            "value": 11
+        },
+		{
+            "hc-key": "MALËSI E MADHE",
+            "value": 120
+        },
+		{
+            "hc-key": "MALIQ",
+            "value": 120
+        },
+		{
+            "hc-key": "MALLAKASTËR",
+            "value": 120
+        },
+		{
+            "hc-key": "MAT",
+            "value": 120
+        },
+		{
+            "hc-key": "MEMALIAJ",
+            "value": 120
+        },
+		{
+            "hc-key": "MIRDITË",
+            "value": 120
+        },
+		{
+            "hc-key": "PATOS",
+            "value": 120
+        },
+		{
+            "hc-key": "PEQIN",
+            "value": 120
+        },
+		{
+            "hc-key": "PËRMET",
+            "value": 120
+        },
+		{
+            "hc-key": "POGRADEC",
+            "value": 120
+        },
+		{
+            "hc-key": "POLIÇAN",
+            "value": 120
+        },
+		{
+            "hc-key": "PRRENJAS",
+            "value": 120
+        },
+		{
+            "hc-key": "PUKË",
+            "value": 120
+        },
+		{
+            "hc-key": "PUSTEC",
+            "value": 120
+        },
+		{
+            "hc-key": "ROSKOVEC",
+            "value": 120
+        },
+		{
+            "hc-key": "RROGOZHINË",
+            "value": 120
+        },
+		{
+            "hc-key": "SARANDË",
+            "value": 120
+        },
+		{
+            "hc-key": "SELENICË",
+            "value": 120
+        },
+		{
+            "hc-key": "SHIJAK",
+            "value": 120
+        },
+		{
+            "hc-key": "SHKODËR",
+            "value": 120
+        },
+		{
+            "hc-key": "SKRAPAR",
+            "value": 120
+        },
+		{
+            "hc-key": "TEPELENË",
+            "value": 120
+        },
+		{
+            "hc-key": "TIRANË",
+            "value": 120
+        },
+		{
+            "hc-key": "TROPOJË",
+            "value": 120
+        },
+		{
+            "hc-key": "URA VAJGURORE",
+            "value": 120
+        },
+		{
+            "hc-key": "VAU I DEJËS",
+            "value": 120
+        },
+		{
+            "hc-key": "VLORË",
+            "value": 120
+        },
+		{
+            "hc-key": "VORË",
+            "value": 120
+        }
+		
+    ];
+
+    // Initiate the chart
+    $('#container').highcharts('Map', {
+
+        title : {
+            text : 'Shperndarja sipas 61 Bashkive'
+        },
+
+        subtitle : {
+            text : '<a href="js/al-allBashki.js">Shqiperi</a>'
+        },
+
+        mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'top'
+            }
+        },
+
+        colorAxis: {
+            min: 0
+        },
+
+        series : [{
+            data : data,
+            mapData: Highcharts.maps['countries/al/al-all'],
+            joinBy: 'hc-key',
+            name: 'Vlera',
+            states: {
+                hover: {
+                    color: '#ffffff'
+                }
+            },
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}'
+            }
+        }]
+    });
+});
+});//]]> 
+
+</script>
+ 
+	
+  </head>
+  <body>
+   <script src="js/highmaps.js"></script>
+<script src="js/exporting.js"></script>
+<script src="js/al-allBashki.js"></script>
+    <div id="container"></div>
+  </body>
+</html>

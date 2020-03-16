@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{738D9A34-6191-422B-B0EF-40EDA9645D9E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinancaVendore</RootNamespace>
+    <AssemblyName>FinancaVendore</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="373ind.aspx" />
+    <Content Include="373vend.aspx" />
+    <Content Include="autonomia.aspx" />
+    <Content Include="shpenzimet.aspx" />
+    <Content Include="sipas373vit.aspx" />
+    <Content Include="sipas61harta.aspx" />
+    <Content Include="61vend.aspx" />
+    <Content Include="sipas61vit.aspx" />
+    <Content Include="Bashki.html" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="images\portfolio\01.jpg" />
+    <Content Include="images\portfolio\01.png" />
+    <Content Include="images\portfolio\02.jpg" />
+    <Content Include="images\portfolio\03.jpg" />
+    <Content Include="images\portfolio\04.jpg" />
+    <Content Include="images\portfolio\05.jpg" />
+    <Content Include="images\portfolio\06.jpg" />
+    <Content Include="images\portfolio\07.jpg" />
+    <Content Include="images\portfolio\08.jpg" />
+    <Content Include="images\portfolio\expand.png" />
+    <Content Include="images\portfolio\full.jpg" />
+    <Content Include="menaxhimifinanciar.aspx" />
+    <Content Include="mesatarjarajonit.aspx" />
+    <Content Include="meskombetare.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\feature-2.png" />
+    <Content Include="images\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="images\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="images\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="images\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="images\ico\favicon.ico" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\main-feature.png" />
+    <Content Include="images\profile.jpg" />
+    <Content Include="images\slider\bg1.jpg" />
+    <Content Include="images\slider\bg2.jpg" />
+    <Content Include="images\slider\bg3.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\al-all.js" />
+    <Content Include="js\al-allBashki.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\exporting.js" />
+    <Content Include="js\highmaps.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery-1.8.3.js" />
+    <Content Include="js\jquery.inview.min.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\mousescroll.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="teardhurat.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="autonomia.aspx.cs">
+      <DependentUpon>autonomia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="autonomia.aspx.designer.cs">
+      <DependentUpon>autonomia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="373ind.aspx.cs">
+      <DependentUpon>373ind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="373ind.aspx.designer.cs">
+      <DependentUpon>373ind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="373vend.aspx.cs">
+      <DependentUpon>373vend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="373vend.aspx.designer.cs">
+      <DependentUpon>373vend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shpenzimet.aspx.cs">
+      <DependentUpon>shpenzimet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shpenzimet.aspx.designer.cs">
+      <DependentUpon>shpenzimet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sipas373vit.aspx.cs">
+      <DependentUpon>sipas373vit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sipas373vit.aspx.designer.cs">
+      <DependentUpon>sipas373vit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sipas61harta.aspx.cs">
+      <DependentUpon>sipas61harta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sipas61harta.aspx.designer.cs">
+      <DependentUpon>sipas61harta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="61vend.aspx.cs">
+      <DependentUpon>61vend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="61vend.aspx.designer.cs">
+      <DependentUpon>61vend.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sipas61vit.aspx.cs">
+      <DependentUpon>sipas61vit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sipas61vit.aspx.designer.cs">
+      <DependentUpon>sipas61vit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menaxhimifinanciar.aspx.cs">
+      <DependentUpon>menaxhimifinanciar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menaxhimifinanciar.aspx.designer.cs">
+      <DependentUpon>menaxhimifinanciar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mesatarjarajonit.aspx.cs">
+      <DependentUpon>mesatarjarajonit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mesatarjarajonit.aspx.designer.cs">
+      <DependentUpon>mesatarjarajonit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meskombetare.aspx.cs">
+      <DependentUpon>meskombetare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="meskombetare.aspx.designer.cs">
+      <DependentUpon>meskombetare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requirenments.cs" />
+    <Compile Include="teardhurat.aspx.cs">
+      <DependentUpon>teardhurat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teardhurat.aspx.designer.cs">
+      <DependentUpon>teardhurat.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images\prettyPhoto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14857/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

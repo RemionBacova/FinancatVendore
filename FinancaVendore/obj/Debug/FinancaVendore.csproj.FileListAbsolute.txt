@@ -1,0 +1,4 @@
+C:\Users\user\documents\visual studio 2012\projects\FinancaVendore\FinancaVendore\bin\FinancaVendore.dll
+C:\Users\user\documents\visual studio 2012\projects\FinancaVendore\FinancaVendore\bin\FinancaVendore.pdb
+C:\Users\user\documents\visual studio 2012\projects\FinancaVendore\FinancaVendore\obj\Debug\FinancaVendore.dll
+C:\Users\user\documents\visual studio 2012\projects\FinancaVendore\FinancaVendore\obj\Debug\FinancaVendore.pdb
